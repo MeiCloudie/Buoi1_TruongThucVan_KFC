@@ -8,7 +8,7 @@ _(Lớp BootCamp Sáng 12 - Năm 2024 - Khoá Front-End)_
 	</picture>
 </div>
 
-## BÀI TẬP HTML (Buổi 1)
+## [Buổi 1] BÀI TẬP HTML - KFC
 
 # Mục tiêu
 
