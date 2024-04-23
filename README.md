@@ -4,11 +4,9 @@ _(Lớp BootCamp Sáng 12 - Năm 2024 - Khoá Front-End)_
 
 <div align="center">
 	<picture>
-		<img loading="lazy" width="100%" src="https://cybersoft.edu.vn/wp-content/uploads/2017/04/MAX-OP1.png" alt="Banner">
+		<img loading="lazy" width="100%" src="./img/banner-cybersoft-course.png" alt="Banner">
 	</picture>
 </div>
-
-<hr>
 
 ## BÀI TẬP HTML (Buổi 1)
 
