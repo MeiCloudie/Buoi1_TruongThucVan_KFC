@@ -6,7 +6,7 @@
     <title>Document</title>
   </head>
   <body style="font-family: 'Montserrat', sans-serif; margin: 0; padding: 0">
-    <header
+    <div
       style="
         text-align: center;
         background-color: #ff2400;
@@ -17,9 +17,9 @@
     >
       <img src="img/logo.png" alt="KFC Logo" width="100px" height="100px" />
       <h1>KFC</h1>
-    </header>
+    </div>
 
-    <nav style="text-align: center; font-size: 20px">
+    <div style="text-align: center; font-size: 20px">
       <a
         href="#intro"
         style="text-decoration: none; color: black; margin-right: 20px"
@@ -40,9 +40,9 @@
         style="text-decoration: none; color: black; margin-right: 20px"
         >Khuyến mãi</a
       >
-    </nav>
+    </div>
 
-    <section
+    <div
       id="intro"
       style="
         background-color: #8b4513;
@@ -72,9 +72,9 @@
         cho tới sandwich cá hồi tại Nhật Bản.
       </p>
       <img src="img/about-pic-1.png" alt="About KFC" width="50%" />
-    </section>
+    </div>
 
-    <section
+    <div
       id="development"
       style="
         background-color: #8b4513;
@@ -96,9 +96,9 @@
         <li>Tháng 11/2009 - Đà Nẵng</li>
       </ul>
       <img src="img/about-pic-3.png" alt="Development" width="50%" />
-    </section>
+    </div>
 
-    <section
+    <div
       id="menu"
       style="
         background-color: #8b4513;
@@ -110,127 +110,141 @@
       <h2 style="text-align: center; font-size: 40px">
         Bảng Giá Nước đi kèm của KFC
       </h2>
-      <table border="1" width="900px;" align="center" style="margin-top: 20px">
-        <tr>
-          <th colspan="2" style="background-color: #ff2400; color: white">
-            Name
-          </th>
-          <th style="background-color: #ff2400; color: white">Type</th>
-          <th style="background-color: #ff2400; color: white">Price</th>
-        </tr>
-        <tr>
-          <td
-            colspan="2"
-            rowspan="2"
-            style="
-              background-image: url('img/greentea.jpg');
-              background-size: cover;
-              background-position: center;
-              color: white;
-              padding: 10px;
-            "
-          >
-            Green Tea
-          </td>
-          <td>Hot</td>
-          <td rowspan="2" style="text-align: center">25.000vnd</td>
-        </tr>
-        <tr>
-          <td>Cold</td>
-        </tr>
-        <tr>
-          <td
-            colspan="2"
-            rowspan="2"
-            style="
-              background-image: url('img/blacktea.jpg');
-              background-size: cover;
-              background-position: center;
-              color: white;
-              padding: 10px;
-            "
-          >
-            Black Tea
-          </td>
-          <td>Hot</td>
-          <td rowspan="2" style="text-align: center">28.000vnd</td>
-        </tr>
-        <tr>
-          <td>Cold</td>
-        </tr>
-        <tr>
-          <td
-            colspan="2"
-            rowspan="2"
-            style="
-              background-image: url('img/olongtea.jpg');
-              background-size: cover;
-              background-position: center;
-              color: white;
-              padding: 10px;
-            "
-          >
-            Olong Tea
-          </td>
-          <td>Hot</td>
-          <td rowspan="2" style="text-align: center">30.000vnd</td>
-        </tr>
-        <tr>
-          <td>Cold</td>
-        </tr>
-        <tr>
-          <td
-            rowspan="3"
-            style="
-              background-image: url('img/fruit.jpg');
-              background-size: cover;
-              background-position: center;
-              color: white;
-              padding: 10px;
-            "
-          >
-            Fruit Tea
-          </td>
-          <td>Lemon Tea</td>
-          <td rowspan="3" style="text-align: center">Cold (only)</td>
-          <td style="text-align: center">30.000vnd</td>
-        </tr>
-        <tr>
-          <td>Apple Tea</td>
-          <td rowspan="2" style="text-align: center">35.000vnd</td>
-        </tr>
-        <tr>
-          <td>Peach Tea</td>
-        </tr>
-        <tr>
-          <td
-            rowspan="3"
-            style="
-              background-image: url('img/milktea.png');
-              background-size: cover;
-              background-position: center;
-              color: white;
-              padding: 10px;
-            "
-          >
-            Milk Tea
-          </td>
-          <td>Green Milk Tea</td>
-          <td rowspan="3" style="text-align: center">Hot</td>
-          <td style="text-align: center">27.000vnd</td>
-        </tr>
-        <tr>
-          <td>Black Milk Tea</td>
-          <td style="text-align: center">30.000vnd</td>
-        </tr>
-        <tr>
-          <td>Olong Milk Tea</td>
-          <td style="text-align: center">32.000vnd</td>
-        </tr>
-      </table>
-    </section>
+      <div
+        style="
+          margin-top: 20px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        "
+      >
+        <table
+          border="1"
+          width="900px;"
+          align="center"
+          style="margin-top: 20px"
+        >
+          <tr>
+            <th colspan="2" style="background-color: #ff2400; color: white">
+              Name
+            </th>
+            <th style="background-color: #ff2400; color: white">Type</th>
+            <th style="background-color: #ff2400; color: white">Price</th>
+          </tr>
+          <tr>
+            <td
+              colspan="2"
+              rowspan="2"
+              style="
+                background-image: url('img/greentea.jpg');
+                background-size: cover;
+                background-position: center;
+                color: white;
+                padding: 10px;
+              "
+            >
+              Green Tea
+            </td>
+            <td>Hot</td>
+            <td rowspan="2" style="text-align: center">25.000vnd</td>
+          </tr>
+          <tr>
+            <td>Cold</td>
+          </tr>
+          <tr>
+            <td
+              colspan="2"
+              rowspan="2"
+              style="
+                background-image: url('img/blacktea.jpg');
+                background-size: cover;
+                background-position: center;
+                color: white;
+                padding: 10px;
+              "
+            >
+              Black Tea
+            </td>
+            <td>Hot</td>
+            <td rowspan="2" style="text-align: center">28.000vnd</td>
+          </tr>
+          <tr>
+            <td>Cold</td>
+          </tr>
+          <tr>
+            <td
+              colspan="2"
+              rowspan="2"
+              style="
+                background-image: url('img/olongtea.jpg');
+                background-size: cover;
+                background-position: center;
+                color: white;
+                padding: 10px;
+              "
+            >
+              Olong Tea
+            </td>
+            <td>Hot</td>
+            <td rowspan="2" style="text-align: center">30.000vnd</td>
+          </tr>
+          <tr>
+            <td>Cold</td>
+          </tr>
+          <tr>
+            <td
+              rowspan="3"
+              style="
+                background-image: url('img/fruit.jpg');
+                background-size: cover;
+                background-position: center;
+                color: white;
+                padding: 10px;
+              "
+            >
+              Fruit Tea
+            </td>
+            <td>Lemon Tea</td>
+            <td rowspan="3" style="text-align: center">Cold (only)</td>
+            <td style="text-align: center">30.000vnd</td>
+          </tr>
+          <tr>
+            <td>Apple Tea</td>
+            <td rowspan="2" style="text-align: center">35.000vnd</td>
+          </tr>
+          <tr>
+            <td>Peach Tea</td>
+          </tr>
+          <tr>
+            <td
+              rowspan="3"
+              style="
+                background-image: url('img/milktea.png');
+                background-size: cover;
+                background-position: center;
+                color: white;
+                padding: 10px;
+              "
+            >
+              Milk Tea
+            </td>
+            <td>Green Milk Tea</td>
+            <td rowspan="3" style="text-align: center">Hot</td>
+            <td style="text-align: center">27.000vnd</td>
+          </tr>
+          <tr>
+            <td>Black Milk Tea</td>
+            <td style="text-align: center">30.000vnd</td>
+          </tr>
+          <tr>
+            <td>Olong Milk Tea</td>
+            <td style="text-align: center">32.000vnd</td>
+          </tr>
+        </table>
+      </div>
+    </div>
 
-    <footer
+    <div
       style="
         text-align: center;
         font-size: 14px;
@@ -241,6 +255,6 @@
       "
     >
       @ 2024 - Trương Thục Vân - Bài Tập HTML (KFC)
-    </footer>
+    </div>
   </body>
 </html>
